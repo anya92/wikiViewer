@@ -1,0 +1,29 @@
+body {
+
+  background-color: #DCDDD8;
+}
+.header {
+  margin-top: 30px;
+  }
+h1 {
+  margin-bottom: 30px;
+  color: #354B5E;
+  font-family: 'Fruktur', fantasy;
+}
+a {
+  font-weight: bold;
+}
+i {
+  margin-right: 10px;
+  color: #354B5E;
+}
+.list-group-item {
+  font-family: ;
+  color: black;
+  background-color: rgb(168, 168, 168);
+  opacity: 0.85;
+}
+
+#result {
+  margin-top: 30px;
+}

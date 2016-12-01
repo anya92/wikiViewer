@@ -10,8 +10,10 @@ h1 {
   color: #354B5E;
   font-family: 'Fruktur', fantasy;
 }
-a {
+a:link {
   font-weight: bold;
+  display: block;
+  text-decoration: none;
 }
 i {
   margin-right: 10px;

@@ -1,31 +1,75 @@
 body {
+    background-color: #BBDEFB;
+    font-family: 'Merriweather';
+}
 
-  background-color: #DCDDD8;
-}
 .header {
-  margin-top: 30px;
-  }
+    margin-top: 30px;
+}
+
 h1 {
-  margin-bottom: 30px;
-  color: #354B5E;
-  font-family: 'Fruktur', fantasy;
+    margin-bottom: 30px;
+    color: #212121;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 80px;
 }
+
+input {
+    box-shadow: none;
+    font-family: 'Merriweather';
+}
+
+.random {
+    margin-top: 20px;
+}
+
+.btn-link {
+    font-size: 18px;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    color: #607D8B;
+}
+
+a {
+    color: #212121;
+}
+
 a:link {
-  font-weight: bold;
-  display: block;
-  text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
 }
-i {
-  margin-right: 10px;
-  color: #354B5E;
+
+#search {
+    margin-top: -7px;
+    font-size: 40px;
+    text-shadow: 0.5px 0.5px black;
+    color: #607D8B;
 }
+
 .list-group-item {
-  font-family: ;
-  color: black;
-  background-color: rgb(168, 168, 168);
-  opacity: 0.85;
+    font-family: 'Merriweather', cursive;
+    font-size: 15px;
+    color: black;
+    background-color: #FFFFFF;
+    opacity: 0.75;
+    border-radius: 15px;
 }
 
 #result {
-  margin-top: 30px;
+    margin-top: 20px;
+}
+
+.list-group {
+    margin-bottom: 0;
+}
+
+footer {
+    margin-bottom: 5px;
+}
+
+@media all and (max-width: 400px) {
+    h1 {
+        font-size: 65px;
+    }
 }

@@ -8,32 +8,39 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Fruktur" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Merriweather:300" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="row header">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <h1>Wikipedia Viewer</h1>
-                <div class="col-md-10" style="padding-right: 0;">
+        <div class="row header text-center">
+            <h1>Wikipedia Viewer</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-11 col-xs-10">
                     <input type="text" class="form-control" placeholder="Wpisz hasło" id="word">
                 </div>
-                <div class="col-md-2 text-left">
-                    <i class="fa fa-search fa-2x" id ="search"></i>
-                    <i class="fa fa-random fa-2x " id="random"></i>
+                <div class="col-md-1 col-xs-2">
+                    <i class="fa fa-search fa-2x" id="search"></i>
                 </div>
             </div>
         </div>
+        <div class="row text-center random">
+            <button id="random" class="btn btn-link">Random Article</button>
+        </div>
         <div class="row">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-8 col-md-offset-2">
                 <div id="result" class="list-group">
                 </div>
             </div>
         </div>
+        <footer id="foot" class="text-center"></footer>
     </div>
+
+
 
 </body>
 

@@ -18,11 +18,12 @@ $(document).ready(function() {
                 }
                 $("#word").val('');
                 $(".list-group-item").mouseenter(function() {
-                  $(this).fadeTo('fast', 1);
+                    $(this).fadeTo('fast', 1);
                 });
                 $(".list-group-item").mouseleave(function() {
-                  $(this).fadeTo('fast', 0.85);
+                    $(this).fadeTo('fast', 0.85);
                 });
+                $("#foot").html("<i class='fa fa-code'></i> with <i class='fa fa-heart'></i> by anya92.");
             },
             error: function(error) {
                 alert("error");
@@ -36,6 +37,6 @@ $(document).ready(function() {
         }
     });
     $("#random").on('click', function() {
-      window.open("https://pl.wikipedia.org/wiki/Special:Random");
+        window.open("https://pl.wikipedia.org/wiki/Special:Random");
     });
 });
